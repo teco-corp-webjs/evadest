@@ -26,3 +26,4 @@ iron:router				#A client and server side router designed specifically for Meteor
 twbs:bootstrap			#Twitter Bootstrap
 
 mike:mocha				#Easily and safely run mocha tests within the Meteor framework
+aldeed:collection2
