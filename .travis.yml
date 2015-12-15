@@ -1,0 +1,8 @@
+sudo: true
+language: node_js
+node_js:
+  - "4.1"
+before_install:
+  npm install velocity-ci
+script:
+  bash test.sh
