@@ -5,7 +5,7 @@ if (!(typeof MochaWeb === 'undefined')){
     describe("competencia", function(){
       it("la competencia por defecto debería estar activa", function(){
         chai.assert.equal(false, competencia.inactivo);
-      });
+      }); 
       it("debería inactivar la competencia", function() {
         competencia.inactivar();
         chai.assert.equal(true, competencia.inactivo);
