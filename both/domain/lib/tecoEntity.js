@@ -9,9 +9,11 @@ TecoEntity = class TecoEntity {
   }
 
   bindProperties(json) {
-    json.forEach(propiedad => {
-        this[propiedad] = json[propiedad];
-    });
+    for (var propiedad in json) {
+        if (json.hasOwnProperty(propiedad)) {
+            this[propiedad] = json[propiedad];
+        }
+    }
   }
 
 }

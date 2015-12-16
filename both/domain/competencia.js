@@ -3,6 +3,8 @@ Competencia = class Competencia extends TecoEntity {
   constructor(json) {
     super();
     this.descripcion = "";
-    this.bindProperties(json);
+    if (json !== undefined) {
+      this.bindProperties(json);
+    }
   }
 }

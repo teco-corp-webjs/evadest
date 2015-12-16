@@ -16,14 +16,14 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-manuel:viewmodel		# ViewModel for Meteor
-manuel:isdev			# El package más complejo del mundo
+manuel:viewmodel		    # ViewModel for Meteor
+manuel:isdev			      # El package más complejo del mundo
 
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 
-iron:router				#A client and server side router designed specifically for Meteor
-twbs:bootstrap			#Twitter Bootstrap
+iron:router			      	#A client and server side router designed specifically for Meteor
+twbs:bootstrap			    #Twitter Bootstrap
 
-mike:mocha				#Easily and safely run mocha tests within the Meteor framework
-aldeed:collection2
+aldeed:collection2      #Meteor Collection extended to attach simple schemas
+mike:mocha				      #Easily and safely run mocha tests within the Meteor framework
