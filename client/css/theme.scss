@@ -1,11 +1,23 @@
+@import "{reywood:bootstrap3-sass}/bootstrap";
+@import "_colores";
+
+
 body {
   color: #eee;
   background: #242424;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
+
+.botonAzul {
+  @extend .btn;
+  background-color: $azul;
+  color: white;
+}
+
 .jumbotron {
   padding: 100px;
   font-size: 16px;
@@ -16,6 +28,7 @@ body {
   border-radius: 13px;
   font-family: "Helvetica Neue Ultra Light", "Helvetica Neue", "Arial Narrow", "Arial", sans-serif;
 }
+
 h1 {
   line-height: 1;
 }
